@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+        }
+
+        .header {
+            padding:20px
+            text-align:center;
+            background: #a268bd;
+            color: white;
+            font-size: 10px;
+        }
+    
+        h2, p {
+  margin: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #74469d;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #5b3f79;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    </style>
+</head>
+<body>
+
+    <navbar>
+        <a>
+    
+        </a>
+    <ul>
+        <li><a href="#contactme">Contact Me</a></li>
+        <li><a href="#myworks">My Works</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a</li><img src="https://media.discordapp.net/attachments/1278171373545590952/1551608999370035251/Untitled679_20260921225956.png?ex=6ab297fc&is=6ab1467c&hm=9a19d6afae44cd8fd8de4b7c865ee5b1060195bcf2152510bc54220a8bd9f2c1&=&format=webp&quality=lossless&width=1280&height=1280" width="50">
+
+    </ul>
+    </navbar>
+
+    <div class="header">
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocKIOfVF6ngCpaZPPkXWTzzCcR511OFpB5DSovb_fj7__GoLdRE=s192-c-mo">
+        
+    <h1 style="text-align:center;">Hello! I'm Tiffany Patriarca</h1>
+    <p style="text-align: center;">Aspiring Artist</p>
+    <br>
+    <br>
+    </div>
+<br>
+<section id="aboutme">
+    <h1 style="color:#5b3f79; text-align:center;">About Me</h1>
+    <p style="color:#29143f; text-align:center;">Hi! I am a student who is passionate about digital art, animating. I usually enjoy creating art during my free time.</p>
+
+</section>
+<br>
+<section id="myworks">
+    <h1 style="color: #5b3f79; text-align:center;">My Works</h1>
+    <img src="https://media.discordapp.net/attachments/1278171373545590952/1551610087347454085/Untitled680_20260921230423.png?ex=6ab29900&is=6ab14780&hm=fe575e1e25956a4aa31f948a76c162f962c8a2d8bd3ac9311f8c9920bd41aecd&=&format=webp&quality=lossless&width=1024&height=512" width="500">
+    <p style="color:black; text-align:center;">In most of my artworks, I use the app called Ibis Paint X. It is an easy to use art app which in my opinion is beginner friendly. I also mainly use the app called Alight Motion when it comes to animation. Since I usually do tweens or short music video animations.</p>
+</section>
+<br>
+<section id="contactme">
+    <h1 style="color:#5b3f79; text-align:center;">Contact Me</h1>
+       <section id="contact">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Example Example">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                <br>
+
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Tiktok</label>
+
+                    <input type="radio" id="r2" name="r-selection" value="1" required>
+                    <label for="r2">Instagram</label>
+
+                    <input type="radio" id="r3" name="r-selection" value="1" required>
+                    <label for="r3">Discord</label>
+                </div>
+
+                <br>
+
+                <label>Interested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Digital Art</label>
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox1">
+                    <label for="ch2">Animation</label>
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox1">
+                    <label for="ch3">Game Development</label>
+                </div>
+
+                <br>
+
+                <label for="selection">Rate My Portfolio!</label>
+                <select id="selection" name="selection" required>
+                    <option value="">--Select Rating</option>
+                    <option value="1">⭐️</option>
+                    <option value="2">⭐️⭐️</option>
+                    <option value="3">⭐️⭐️⭐️</option>
+                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                </select>
+
+                <br>
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="write your feedback here..." required></textarea>
+
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+</section>
+
+<footer>
+    <br>
+    <p>2026 Patriarca Tiffany, 9-Emerald. All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
